@@ -10,9 +10,9 @@ function mergeSort(arr) {
   const right = arr.slice(middle);
   mergeSort(left);
   mergeSort(right);
-  // return merge(mergeSort(left), mergeSort(right));
 }
 
-function merge() { //implementation
-
+function merge(left, right) { //implementation
+  console.log(left);
+  console.log(right);
 }
